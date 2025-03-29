@@ -27,4 +27,4 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
-        MOZ_HEADLESS=1 python manage.py tests
+        MOZ_HEADLESS=1 python manage.py test
