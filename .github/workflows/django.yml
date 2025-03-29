@@ -28,3 +28,4 @@ jobs:
     - name: Run Tests
       run: |
         MOZ_HEADLESS=1 python manage.py test polls
+        MOZ_HEADLESS=1 python manage.py test
